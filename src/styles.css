@@ -42,6 +42,16 @@ h2 {
   border-radius: 6px;
   padding: 10px;
 }
+.cities {
+  max-width: 600px;
+  margin: 70px auto;
+  background-color: rgba(207, 181, 181, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
 .time {
   font-size: 38px;
   color: rgba(0, 0, 0, 0.4);
