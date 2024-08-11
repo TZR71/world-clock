@@ -1,4 +1,10 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+}
+footer {
+  text-align: center;
 }
