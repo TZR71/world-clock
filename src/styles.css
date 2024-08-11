@@ -1,10 +1,63 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/138/490/original/time.jpg?1723372894");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-
+select {
+  display: block;
+  margin: 0 auto;
+  width: 92%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid blanchedalmond;
+  background-color: rgba(255, 235, 205, 0.2);
+}
 h1 {
   text-align: center;
+  font-size: 45px;
+  color: blanchedalmond;
+}
+h2 {
+  margin: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 70px auto;
+  background-color: rgba(207, 181, 181, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  font-size: 22px;
+  border: 1.5px dashed blanchedalmond;
+  border-radius: 6px;
+  padding: 10px;
+}
+.time {
+  font-size: 38px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+}
+
+.time small {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.date {
+  opacity: 0.6;
+  font-size: 20px;
+  color: blanchedalmond;
 }
 footer {
   text-align: center;
+  color: blanchedalmond;
+  padding: 20px;
 }
